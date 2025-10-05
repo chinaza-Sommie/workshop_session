@@ -15,7 +15,7 @@
             grid-template-rows: 100px 200px;
             grid-gap: 10px;
             /* justify-content: center; */
-
+            align-content: center;
         }
 
         .flexdiv>div{
@@ -24,27 +24,34 @@
         
             /* margin-bottom: 5px; */
         }
-        
+        .div3{
+            /* grid-row: span 2; */
+        }
+
+        .relative-div{
+            margin-top: 50px;
+            background-color: black;
+            height: 50px;
+            position: relative;
+            width: 50%;
+            top: 50px;
+            right: 0;
+        }
+
+        .idr{
+            position: absolute;
+            background-color: aqua;
+            height: 50px;
+            top: 0;
+        }
     </style>
 </head>
 <body>
     
-    <div class="flexdiv">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-       
-        <!-- <div></div> -->
-        <!-- <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div> -->
-        
-        
+    
+
+    <div class="relative-div"> 
+        <div class="idr"></div>
     </div>
 
     <!-- <div class="stick"> sticky</div> -->
